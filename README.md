@@ -181,8 +181,8 @@ SOFTWARE.
 
 **Vinayak Ojha**
 
-- GitHub: [@yourusername](https://github.com/vinayak258)
-- Project Link: [https://github.com/yourusername/thaalika_app](https://github.com/vinayak258/thaalika_app)
+- GitHub: [@Vinayak258](https://github.com/Vinayak258)
+- Project Link: [https://github.com/Vinayak258/thaalika_app](https://github.com/Vinayak258/thaalika_app)
 
 ---
 
