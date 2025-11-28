@@ -156,7 +156,7 @@ This project is licensed under the MIT License.
 ```
 MIT License
 
-Copyright (c) 2024 Thaalika App
+Copyright (c) 2025 Thaalika App
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -181,8 +181,8 @@ SOFTWARE.
 
 **Vinayak Ojha**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Project Link: [https://github.com/yourusername/thaalika_app](https://github.com/yourusername/thaalika_app)
+- GitHub: [@yourusername](https://github.com/vinayak258)
+- Project Link: [https://github.com/yourusername/thaalika_app](https://github.com/vinayak258/thaalika_app)
 
 ---
 
