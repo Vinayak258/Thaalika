@@ -1,0 +1,42 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // Users collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      // Allow update of basic profile fields, but BLOCK wallet and coupons
+      allow update: if isOwner(userId) 
+                    && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['wallet', 'coupons']));
+      allow create: if isAuthenticated(); // Initial creation
+    }
+
+    // Mess collection
+    match /messes/{messId} {
+      allow read: if true;
+      allow write: if isAuthenticated(); // Refine this later to only mess owners
+    }
+    
+    // Orders collection
+    match /orders/{orderId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated(); // Students create orders
+      allow update: if isAuthenticated(); // Status updates by owner/student
+    }
+
+    // Food Catalog
+    match /food_catalog/{itemId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+  }
+}

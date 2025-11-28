@@ -1,0 +1,29 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "thalika-app",
+                    "appId": "1:977695303752:android:a1f8329623ac5f556f507d",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "thalika-app",
+                    "configurations": {
+                        "android": "1:977695303752:android:a1f8329623ac5f556f507d",
+                        "ios": "1:977695303752:ios:f4706fd5eda40cd36f507d"
+                    }
+                }
+            }
+        }
+    },
+    "firestore": {
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    },
+    "functions": {
+        "source": "functions"
+    }
+}
