@@ -182,8 +182,6 @@ SOFTWARE.
 **Vinayak Ojha**
 
 - GitHub: [@Vinayak258](https://github.com/Vinayak258)
-- Project Link: [https://github.com/Vinayak258/thaalika_app](https://github.com/Vinayak258/thaalika_app)
-
----
+--
 
 Built with Flutter ❤️
