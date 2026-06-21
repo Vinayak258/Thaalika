@@ -41,7 +41,7 @@ Thaalika is a mobile application built with Flutter and Firebase that simplifies
 🔜 **OTP-Based Authentication** - Phone number login with SMS verification  
 🔜 **Wallet Top-Up** - Add money to wallet via payment gateway  
 🔜 **Push Notifications** - Real-time order updates and announcements  
-🔜 **Rating & Reviews** - Student feedback system for messes  
+🔜 **Rating & Reviews** - Student feedback system for messe
 🔜 **Advanced Analytics** - Detailed revenue reports for owners  
 
 ## Tech Stack
